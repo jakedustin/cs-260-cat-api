@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.header-container {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 80px;
+    align-items: center;
+}
+
+#getNewDogButton {
+    width: 200px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page-container {
+    display: flex;
+    flex-direction: column;
+}
+
+#dogResults {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    min-height: 500px;
+    margin: 20px;
+}
+
+.dog-pic {
+    margin: 20px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 25px;
+    background-color: #0B5F6F;
+    color: #e6eff0;
+    text-align: center;
+  }
+
+  .footer-text {
+      text-decoration: none;
+      color: #e6eff0;
+  }
